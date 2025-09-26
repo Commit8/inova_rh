@@ -1,4 +1,7 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Colaborador } from '../entities/colaborador.entity';
+import { DeleteResult, ILike, Repository } from 'typeorm';
 
 @Injectable()
 export class ColaboradorService {
