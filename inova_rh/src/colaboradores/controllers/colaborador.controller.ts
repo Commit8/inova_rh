@@ -29,6 +29,12 @@ export class ColaboradorController {
     return this.colaboradorService.findById(id);
   }
 
+  @Get('/cargo/:cargo')
+  @HttpCode(HttpStatus.OK)
+  findAllByCargo(@Param('cargo') cargo: string): Promise<Colaborador[]> {
+    return this.colaboradorService.findAllByCargo(cargo);
+  }
+
   @Post()
   @HttpCode(HttpStatus.CREATED)
   create(@Body() colaborador: Colaborador): Promise<Colaborador> {
