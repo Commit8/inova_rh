@@ -1,3 +1,4 @@
+[![inova-RH-azivs.png](https://i.postimg.cc/NG7qN9Y5/inova-RH-azivs.png)](https://postimg.cc/s1XNx2Mr)
 # InovaRH – Sistema de Cadastro de Recursos Humanos
 
 ## 📌 Sobre o Projeto
